@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>두피빡빡 홈페이지</title>
+    <style>
+        .interface-container {
+            display: flex;
+            flex-direction: column; /* 세로로 배치하도록 변경 */
+        }
+        .interface {
+            flex: 1;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Integrated Gradio Interfaces</h1>
+    <div class="interface-container">
+        <div class="interface">
+            <!-- Embed your first Gradio interface here -->
+            <iframe src="호스팅 사이트에서 제공하는 url 입력" width="100%" height="500"></iframe>
+        </div>
+        <div class="interface">
+            <!-- Embed your second Gradio interface here -->
+            <iframe src="호스팅 사이트에서 제공하는 url 입력" width="100%" height="500"></iframe>
+        </div>
+        <div class="interface">
+            <!-- Embed your third Gradio interface here -->
+            <iframe src="호스팅 사이트에서 제공하는 url 입력" width="100%" height="500"></iframe>
+        </div>
+    </div>
+</body>
+</html>
